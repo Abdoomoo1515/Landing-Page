@@ -313,7 +313,7 @@ body{
 }
 @media(max-width:575px){
     .intro-text{
-        width: 90%;
+        width: 85%;
     }
     .intro-text h1{
         font-size: 32px;
