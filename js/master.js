@@ -133,7 +133,7 @@ let landingPage = document.querySelector(".landing-page");
 
 //get array of images
 
-let imgsArray = ["v1.jpg", "v2.jpg", "v3.jpg", "v4.jpg", "v5.jpg", "v6.jpg"];
+let imgsArray = ["v1.jpg", "v2.jpg", "v3.jpg", "v4.jpg", "v8.jpg", "v6.jpg"];
 
 
 //function to randomize imgs
