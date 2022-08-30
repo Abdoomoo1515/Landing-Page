@@ -354,7 +354,7 @@ document.addEventListener('click' , (e) => {
         tLinks.classList.toggle("open");
       } 
     
-    console.log("this is not the button or LIST");
+    
   }
 
 });
