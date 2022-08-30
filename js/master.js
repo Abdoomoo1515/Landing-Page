@@ -129,31 +129,31 @@ randomBackEl.forEach((span) => {
 //==========================================================================================//
 
 //select landing page element
-let landingPage = document.querySelector(".landing-page");
+// let landingPage = document.querySelector(".landing-page");
 
-//get array of images
+// //get array of images
 
-let imgsArray = ["v1.jpg", "v2.jpg", "v3.jpg", "v4.jpg", "v8.jpg", "v6.jpg"];
+// let imgsArray = ["v1.jpg", "v2.jpg", "v3.jpg", "v4.jpg", "v8.jpg", "v6.jpg"];
 
 
-//function to randomize imgs
-function randomizeImgs(){
+// //function to randomize imgs
+// function randomizeImgs(){
   
-  if(backgroundOption === true){
+//   if(backgroundOption === true){
 
-    backgroundInterval = setInterval(() => {
-      //get random number
-      let randomNumber = Math.floor(Math.random() * imgsArray.length);
+//     backgroundInterval = setInterval(() => {
+//       //get random number
+//       let randomNumber = Math.floor(Math.random() * imgsArray.length);
 
-      //change background image url
-      landingPage.style.backgroundImage =
-        'url("images/' + imgsArray[randomNumber] + '")';
-    }, 5000);
+//       //change background image url
+//       landingPage.style.backgroundImage =
+//         'url("images/' + imgsArray[randomNumber] + '")';
+//     }, 5000);
 
     
-  } 
-}
-randomizeImgs();
+//   } 
+// }
+// randomizeImgs();
 
 
 //selsect skills selector
